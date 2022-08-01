@@ -1,0 +1,41 @@
+
+    
+    #yale
+    {
+      color: blue;
+      text-decoration: none ;
+
+    }
+    #yale:hover
+    {
+      text-decoration: underline;
+
+    }
+    a
+    {
+      color: #ff0000;
+      text-decoration: none ;
+    }
+
+    a:hover
+    {
+      text-decoration: underline;
+    }
+
+    .centered
+    {
+      text-align: center;
+    }
+    .larged
+    {
+      font-size: large;
+    }
+    .midium
+    {
+      font-size: medium;
+    }
+    .small
+    {
+      font-size: small;
+    }
+

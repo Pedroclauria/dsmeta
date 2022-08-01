@@ -11,7 +11,7 @@ import './styles.css';
 
 function SalesCard() {
   const min = new Date(new Date().setDate(new Date().getDate()- 365 ));
-  const max = new Date(new Date().setDate(new Date().getDate()+ 180 ));
+  const max = new Date(new Date().setDate(new Date().getDate() ));
 
   const [sales, setSales] = useState<Sale[]>([])
 

@@ -1,12 +1,76 @@
+
 <!DOCTYPE html>
+
 <html lang="en">
+  
   <head>
+
+
+    <script>
+      
+   
+      
+      document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('form').addEventListener('submit', function() {let name = document.querySelector('#name').value; 
+        alert('hello, ' + name);
+        });
+      });
+
+
+    </script>
+    
+   
+    Welcome to my home page!
+    
+
+
+    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+   
+    <title>CSS</title>
+
   </head>
-  <body>
-    <div id="root"></div>
+  
+  <body class="centered">
+
+    <div id="root">ROOT</div>
     <script type="module" src="/src/main.tsx"></script>
+    
+    <header class="large">
+     
+           
+      <form onsubmit="greet(); return false;">
+        <input autocomplete="off" autofocus id="name" placeholder="What's your name? " type="text">
+        <input type="submit" value="Greet me">
+        
+  
+      </form> 
+
+      <script src="scripts.js"></script>
+
+       
+
+    
+  </header>
+
+  <main class="medium">
+    <header>
+      
+      
+    </header>
+    <main>
+      <div class="small"></div> 
+    </main>
+
+  </main>
+
+  <footer class="small">
+
+      
+
+  </footer>
+
+    
   </body>
 </html>
